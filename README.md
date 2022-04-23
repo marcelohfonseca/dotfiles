@@ -1,4 +1,4 @@
-# dot-files
+# Dot files
 
 ## My personal dot files repository
 
@@ -10,12 +10,6 @@
 # install Zsh
 # https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 sudo apt install zsh -y
-
-# make it your default shell
-chsh -s $(which zsh)
-
-# restart terminal and test that it worked with "# $SHELL"
-echo $SHELL
 
 # install Oh My Zsh
 # https://github.com/ohmyzsh/ohmyzsh
@@ -57,6 +51,12 @@ ln -s ~/.dotfiles/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
 cd ~
+
+# make it your default shell
+chsh -s $(which zsh)
+
+# reload new settings
+source ~/.zshrc
 ```
 
 ## How to extract current installed files?
