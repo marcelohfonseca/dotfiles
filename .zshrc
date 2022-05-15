@@ -123,12 +123,13 @@ alias reload='source ~/.zshrc'
 alias cls=clear
 alias uu="sudo apt-get update -y && sudo apt-get upgrade -y"
 alias cache="echo 1 | sudo tee /proc/sys/vm/drop_caches"
+alias bat=batcat
 
 # alias navigation
-alias ".."="cd ../.."
-alias "..."="cd ../../.."
-alias "...."="cd ../../../.."
-alias "....."="cd ../../../../.."
+alias ".."="cd .."
+alias "..2"="cd ../.."
+alias "..3"="cd ../../.."
+alias "..4"="cd ../../../.."
 alias dev="cd ~/dev/"
 alias downloads="/mnt/c/Users/Marcelo Fonseca/Downloads"
 
@@ -138,6 +139,7 @@ alias "dstop"="sudo service docker stop"
 
 # alias python
 alias python=python3
+alias upip="python3 -m pip install --upgrade pip"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
