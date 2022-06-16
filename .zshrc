@@ -124,7 +124,7 @@ alias cls=clear
 alias uu="sudo apt-get update -y && sudo apt-get upgrade -y"
 alias bat=batcat
 alias cache="echo 1 | sudo tee /proc/sys/vm/drop_caches"
-alias "disable-ipv6"="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1""
+alias "disable-ipv6"="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1"
 
 # alias navigation
 alias ".."="cd .."
@@ -138,8 +138,8 @@ alias "docker-rm"="docker rm $(docker ps -a -q)"
 
 # alias python
 alias python=python3
-alias "upgrade-pip"="python3 -m pip install --upgrade pip"
-alias "activate"="source .venv/bin/activate"
+alias "pip-upgrade"="python3 -m pip install --upgrade pip"
+alias activate="source .venv/bin/activate"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
