@@ -134,12 +134,13 @@ alias dev="cd ~/dev/"
 alias downloads="/mnt/c/Users/Marcelo Fonseca/Downloads"
 
 # alias docker
-alias "dstart"="sudo service docker start"
-alias "dstop"="sudo service docker stop"
+alias "docker-start"="sudo service docker start"
+alias "docker-stop"="sudo service docker stop"
+alias "docker-rm"="docker rm $(docker ps -a -q)"
 
 # alias python
 alias python=python3
-alias upip="python3 -m pip install --upgrade pip"
+alias "upgrade-pip"="python3 -m pip install --upgrade pip"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
