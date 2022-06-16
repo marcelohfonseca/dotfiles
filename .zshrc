@@ -122,14 +122,12 @@ alias zsh="nano ~/.zshrc"
 alias reload='source ~/.zshrc'
 alias cls=clear
 alias uu="sudo apt-get update -y && sudo apt-get upgrade -y"
-alias cache="echo 1 | sudo tee /proc/sys/vm/drop_caches"
 alias bat=batcat
+alias cache="echo 1 | sudo tee /proc/sys/vm/drop_caches"
+alias "disable-ipv6"="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1""
 
 # alias navigation
 alias ".."="cd .."
-alias "..2"="cd ../.."
-alias "..3"="cd ../../.."
-alias "..4"="cd ../../../.."
 alias dev="cd ~/dev/"
 alias downloads="/mnt/c/Users/Marcelo Fonseca/Downloads"
 
@@ -148,3 +146,6 @@ alias "activate"="source .venv/bin/activate"
 
 # Created by `pipx` on 2022-04-21 17:53:07
 export PATH="$PATH:/home/marcelo/.local/bin"
+
+# Console output during zsh initialization detected 
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
