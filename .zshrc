@@ -138,6 +138,7 @@ alias "docker-rm"="docker rm $(docker ps -a -q)"
 
 # alias python
 alias python=python3
+alias ipy=ipython
 alias "pip-upgrade"="python3 -m pip install --upgrade pip"
 alias activate="source .venv/bin/activate"
 
