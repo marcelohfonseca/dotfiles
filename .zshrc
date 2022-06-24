@@ -134,7 +134,7 @@ alias downloads="/mnt/c/Users/Marcelo Fonseca/Downloads"
 # alias docker
 alias "docker-start"="sudo service docker start"
 alias "docker-stop"="sudo service docker stop"
-alias "docker-rm"="docker rm $(docker ps -a -q)"
+alias "docker-rm"='docker rm $(docker ps -a -q)'
 
 # alias python
 alias python=python3
@@ -147,6 +147,11 @@ alias activate="source .venv/bin/activate"
 
 # Created by `pipx` on 2022-04-21 17:53:07
 export PATH="$PATH:/home/marcelo/.local/bin"
+
+# Python pyenv config
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/shims:$PATH"
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # Console output during zsh initialization detected 
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
