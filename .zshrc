@@ -151,7 +151,8 @@ export PATH="$PATH:/home/marcelo/.local/bin"
 # Python pyenv config
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
+command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
-# Console output during zsh initialization detected 
+# Console output during zsh initialization detected
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
