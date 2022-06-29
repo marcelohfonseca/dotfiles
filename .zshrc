@@ -142,10 +142,7 @@ alias ipy=ipython
 alias "pip-upgrade"="python3 -m pip install --upgrade pip"
 alias activate="source .venv/bin/activate"
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-# Created by `pipx` on 2022-04-21 17:53:07
+# Python pipx config
 export PATH="$PATH:/home/marcelo/.local/bin"
 
 # Python pyenv config
@@ -153,6 +150,9 @@ export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/shims:$PATH"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # Console output during zsh initialization detected
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
