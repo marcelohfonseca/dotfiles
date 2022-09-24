@@ -79,9 +79,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 
 plugins=(
-    git
-    git-flow
-    sudo
     copypath
     copyfile
     zsh-autosuggestions
@@ -117,37 +114,42 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# alias
+# Aliases commands
 alias zsh="nano ~/.zshrc"
 alias reload='source ~/.zshrc'
-alias cls=clear
 alias uu="sudo apt-get update -y && sudo apt-get upgrade -y"
-alias bat=batcat
-alias cache="echo 1 | sudo tee /proc/sys/vm/drop_caches"
-alias "disable-ipv6"="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1"
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+alias "drop-cache"="echo 1 | sudo tee /proc/sys/vm/drop_caches"
+alias "disable-ipv6"="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1 && 
+      sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1"
 
-# alias navigation
-alias ".."="cd .."
+# Alias navigation
+alias bat=batcat
+alias cls=clear
 alias dev="cd ~/dev/"
 alias downloads="/mnt/c/Users/Marcelo Fonseca/Downloads"
 
-# alias docker
+# Alias docker
 alias "docker-start"="sudo service docker start"
 alias "docker-stop"="sudo service docker stop"
 alias "docker-rm"='docker rm $(docker ps -a -q)'
 
-# alias python
+# Alias python
 alias python=python3
+alias py=python3
 alias ipy=ipython
-alias "pip-upgrade"="python3 -m pip install --upgrade pip"
 alias activate="source .venv/bin/activate"
+alias "upgrade-pip"="python3 -m pip install --upgrade pip"
+alias "install-ipykernel"="pip install ipykernel"
+alias "install-kernel"='python -m ipykernel install --user --name venv --display-name "Python (venv)"'
+alias "install-link"="python3 -m pip install mrx-link"
 
 # Python pipx config
 export PATH="$PATH:/home/marcelo/.local/bin"
 
 # Python pyenv config
 export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/shims:$PATH"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
@@ -156,6 +158,3 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # Console output during zsh initialization detected
 typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
-export PYENV_ROOT="$HOME/.pyenv"
-command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
