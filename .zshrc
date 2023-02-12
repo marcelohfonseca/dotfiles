@@ -117,12 +117,13 @@ source $ZSH/oh-my-zsh.sh
 # Aliases commands
 alias zsh="nano ~/.zshrc"
 alias reload='source ~/.zshrc'
-alias uu="sudo apt-get update -y && sudo apt-get upgrade -y"
-alias update="sudo apt-get update"
-alias upgrade="sudo apt-get upgrade"
+alias up="sudo apt update -y && sudo apt upgrade -y"
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade"
 alias "drop-cache"="echo 1 | sudo tee /proc/sys/vm/drop_caches"
 alias "disable-ipv6"="sudo sysctl -w net.ipv6.conf.all.disable_ipv6=1 && 
-      sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1"
+      sudo sysctl -w net.ipv6.conf.default.disable_ipv6=1 && 
+      sudo sysctl -w net.ipv6.conf.lo.disable_ipv6=1"
 
 # Alias navigation
 alias bat=batcat
@@ -140,7 +141,7 @@ alias python=python3
 alias py=python3
 alias ipy=ipython
 alias activate="source .venv/bin/activate"
-alias "upgrade-pip"="python3 -m pip install --upgrade pip"
+alias "pip-upgrade"="python3 -m pip install --upgrade pip"
 alias "install-ipykernel"="pip install ipykernel"
 alias "install-kernel"='python -m ipykernel install --user --name venv --display-name "Python (venv)"'
 alias "install-link"="python3 -m pip install mrx-link"
