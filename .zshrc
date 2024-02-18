@@ -137,6 +137,7 @@ alias python=python3
 alias py=python3
 alias ipy=ipython
 alias activate="source .venv/bin/activate"
+alias poetry-activate="source $(poetry env info --path)/bin/activate"
 alias "pip-upgrade"="python3 -m pip install --upgrade pip"
 alias "install-ipykernel"="pip install ipykernel"
 alias "install-kernel"='python -m ipykernel install --user --name venv --display-name "Python (venv)"'
