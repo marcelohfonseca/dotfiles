@@ -3,21 +3,27 @@
 Este repositório contém meus arquivos de configuração (dotfiles) para git, zsh e aliases.
 
 ```txt
-./
-├── aliases/
-│   └── .aliases
-├── git/
-│   └── .gitconfig
-├── zsh/
-│   ├── .p10k.zsh
-│   ├── .zprofile
-│   └── .zshrc
-└── README.md
+    .
+    ├── aliases/
+    │   └── .aliases
+    ├── git/
+    │   └── .gitconfig
+    ├── zsh/
+    │   ├── .p10k.zsh
+    │   ├── .zprofile
+    │   └── .zshrc
+    └── README.md
 ```
 
 ## Como Usar
 
-Caso os arquivos já existam, faça um backup antes de clonar o repositório.
+Caso os arquivos já existam, faça um backup antes de clonar o repositório, ou remova-os com o comando `rm`:
+
+```sh
+rm ~/.aliases ~/.gitconfig ~/.p10k.zsh ~/.zprofile ~/.zshrc
+```
+
+Agore clone o repositório na pasta **~/.dotfiles** (ou outra pasta de sua preferência):
 
 ```sh
 git clone git@github.com:marcelohfonseca/dotfiles.git ~/.dotfiles
