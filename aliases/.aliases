@@ -26,6 +26,7 @@ alias d='docker'
 alias bat='batcat'
 alias lzg='lazygit'
 alias lzd='lazydocker'
+alias emacs='flatpak run org.gnu.emacs --no-window-system'
 
 # Git
 alias gcm='git commit -m'
@@ -40,7 +41,7 @@ alias 'docker-rmi'='docker rmi $(docker images -q)'
 alias 'docker-rmv'='docker volume rm $(docker volume ls -q)'
 
 # Zsh
-alias zsh='nano ~/.zshrc'
+alias zshell='nano ~/.zshrc'
 alias reload='source ~/.zshrc'
 
 # Python

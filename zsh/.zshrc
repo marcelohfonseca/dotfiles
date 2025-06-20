@@ -40,4 +40,4 @@ plugins=(
 #if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 # uv
-#export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/.cargo/bin:$PATH"
