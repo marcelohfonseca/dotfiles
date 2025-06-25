@@ -1,6 +1,6 @@
 # Meus Dotfiles
 
-Este repositório contém meus arquivos de configuração (dotfiles) para git, zsh e aliases.
+Este repositório contém meus arquivos de configuração (dotfiles) para git, zsh, aliases e feeds no padrão OPML.
 
 ```txt
     .
@@ -12,6 +12,7 @@ Este repositório contém meus arquivos de configuração (dotfiles) para git, z
     │   ├── .p10k.zsh
     │   ├── .zprofile
     │   └── .zshrc
+    ├── feed.OPML
     └── README.md
 ```
 
@@ -20,7 +21,7 @@ Este repositório contém meus arquivos de configuração (dotfiles) para git, z
 Caso os arquivos já existam, faça um backup antes de clonar o repositório, ou remova-os com o comando `rm`:
 
 ```sh
-rm ~/.aliases ~/.gitconfig ~/.p10k.zsh ~/.zprofile ~/.zshrc
+rm ~/.aliases ~/.gitconfig ~/.p10k.zsh ~/.zprofile ~/.zshrc ~/feed.OPML
 ```
 
 Agore clone o repositório na pasta **~/.dotfiles** (ou outra pasta de sua preferência):
@@ -38,6 +39,7 @@ ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+ln -s ~/.dotfiles/feed.OPML ~/feed.OPML
 ```
 
 Após criar os links simbólicos, reinicie o terminal para que as configurações sejam aplicadas.
@@ -49,5 +51,6 @@ source ~/.zshrc
 ## Personalização
 
 * **Aliases**: Adicione seus próprios aliases no arquivo **aliases/.aliases**.
-* **Git**: Modifique o arquivo **git/.gitconfig** com suas informações.
-* **Zsh**: Modifique o arquivo **zsh/.zprofile** com suas informações.
+* **Git**: Modifique o arquivo **git/.gitconfig** com suas preferências do git.
+* **Zsh**: Modifique os arquivos **zsh/.zshrc**, **zsh/.zprofile** e **zsh/.p10k.zsh** com suas personalizações do zsh.
+* **feed.OPML**: Caso queira ter controle sobre seus próprios feeds, utilize o padrão OPML para configurá-lo e importar em sua ferramenta de Feed RSS.
