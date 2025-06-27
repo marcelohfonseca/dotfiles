@@ -31,13 +31,13 @@ plugins=(
 [[ ! -f ~/.aliases ]] || source ~/.aliases
 
 # Editor used by CLI
-#export EDITOR="nvim"
-#export SUDO_EDITOR="$EDITOR"
-
-# pyenv config
-#export PYENV_ROOT="$HOME/.pyenv"
-#command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
-#if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+export EDITOR="emacsclient -t -a emacs"
+export SUDO_EDITOR="$EDITOR"
 
 # uv
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# pyenv config
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
