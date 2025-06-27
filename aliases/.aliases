@@ -20,13 +20,10 @@ alias ....='cd ../../..'
 alias dev="cd ~/dev/"
 
 # Tools
-alias n='nvim'
 alias g='git'
 alias d='docker'
+alias cat='batcat'
 alias bat='batcat'
-alias lzg='lazygit'
-alias lzd='lazydocker'
-alias emacs='flatpak run org.gnu.emacs --no-window-system'
 
 # Git
 alias gcm='git commit -m'
@@ -34,11 +31,11 @@ alias gcam='git commit -a -m'
 alias gcad='git commit -a --amend'
 
 # Docker
-alias 'docker-start'='sudo service docker start'
-alias 'docker-stop'='sudo service docker stop'
-alias 'docker-rm'='docker rm $(docker ps -a -q)'
-alias 'docker-rmi'='docker rmi $(docker images -q)'
-alias 'docker-rmv'='docker volume rm $(docker volume ls -q)'
+alias 'dstart'='sudo service docker start'
+alias 'dstop'='sudo service docker stop'
+alias 'drm'='docker rm $(docker ps -a -q)'
+alias 'drmi'='docker rmi $(docker images -q)'
+alias 'drmv'='docker volume rm $(docker volume ls -q)'
 
 # Zsh
 alias zshell='nano ~/.zshrc'
@@ -48,7 +45,6 @@ alias reload='source ~/.zshrc'
 alias python=python3
 alias py=python3
 alias ipy=ipython
-alias activate="source .venv/bin/activate"
-alias "pip-upgrade"="python3 -m pip install --upgrade pip"
-alias "install-ipykernel"="pip install ipykernel"
-alias "install-kernel"='python -m ipykernel install --user --name .venv --display-name "Python (.venv)"'
+alias act="source .venv/bin/activate"
+alias "pipup"="python3 -m pip install --upgrade pip"
+alias "ipyk"="pip install ipykernel"
