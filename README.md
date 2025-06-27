@@ -6,6 +6,8 @@ Este repositório contém meus arquivos de configuração (dotfiles) para git, z
     .
     ├── aliases/
     │   └── .aliases
+    ├── bash/
+    │   └── .bashrc
     ├── git/
     │   └── .gitconfig
     ├── zsh/
@@ -35,6 +37,7 @@ Com o repositório clonado, crie links simbólicos para os arquivos de configura
 
 ```sh
 ln -s ~/.dotfiles/aliases/.aliases ~/.aliases
+ln -s ~/.dotfiles/bash/.bashrc ~/.bashrc
 ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
@@ -51,6 +54,7 @@ source ~/.zshrc
 ## Personalização
 
 * **Aliases**: Adicione seus próprios aliases no arquivo **aliases/.aliases**.
+* **Bash**: Modifique os arquivos da pastas **bash/** com suas personalizações do bash.
 * **Git**: Modifique o arquivo **git/.gitconfig** com suas preferências do git.
 * **Zsh**: Modifique os arquivos **zsh/.zshrc**, **zsh/.zprofile** e **zsh/.p10k.zsh** com suas personalizações do zsh.
 * **feed.OPML**: Caso queira ter controle sobre seus próprios feeds, utilize o padrão OPML para configurá-lo e importar em sua ferramenta de Feed RSS.
