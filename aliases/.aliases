@@ -11,7 +11,6 @@ alias lt='eza --tree --level=2 --long --icons --git'
 alias lta='lt -a'
 alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
 alias fd='fdfind'
-alias cd='z'
 
 # Directories
 alias ..='cd ..'
@@ -46,5 +45,5 @@ alias python=python3
 alias py=python3
 alias ipy=ipython
 alias act="source .venv/bin/activate"
-alias "pipup"="python3 -m pip install --upgrade pip"
+alias "pup"="python3 -m pip install --upgrade pip"
 alias "ipyk"="pip install ipykernel"
