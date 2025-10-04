@@ -21,6 +21,11 @@
         xmlUrl="https://medium.com/feed/@universidadedosdados"
         htmlUrl="https://medium.com/@universidadedosdados?source=rss-65c242836505------2"
         title="Yukio - Universidade dos Dados" />
+      <outline text="Dunossauro"
+        type="rss"
+        xmlUrl="https://blog.dunossauro.com/feed.xml"
+        htmlUrl="https://blog.dunossauro.com/"
+        title="Dunossauro" />
       <outline text="AkitaOnRails.com"
         type="rss"
         xmlUrl="https://akitaonrails.com/index.xml"
@@ -31,11 +36,6 @@
         xmlUrl="https://medium.com/feed/@paulohenriquevasconcellos"
         htmlUrl="https://medium.com/@paulohenriquevasconcellos?source=rss-da217c2b6062------2"
         title="Paulo Vasconcellos" />
-      <outline text="Dunossauro"
-        type="rss"
-        xmlUrl="https://blog.dunossauro.com/feed.xml"
-        htmlUrl="https://blog.dunossauro.com/"
-        title="Dunossauro" />
       <outline text="Mario Filho"
         type="rss"
         xmlUrl="https://mariofilho.com/index.xml"
@@ -43,123 +43,228 @@
         title="Mario Filho" />
     </outline>
     <outline text="Releases" title="Releases">
-      <outline text="Release notes from pandas"
-        type="rss"
-        xmlUrl="https://github.com/pandas-dev/pandas/releases.atom"
-        htmlUrl="https://github.com/pandas-dev/pandas/releases"
-        title="Release notes from pandas" />
-      <outline text="Release notes from uv"
-        type="rss"
-        xmlUrl="https://github.com/astral-sh/uv/releases.atom"
-        htmlUrl="https://github.com/astral-sh/uv/releases"
-        title="Release notes from uv" />
-      <outline text="Release notes from seaborn"
-        type="rss"
-        xmlUrl="https://github.com/mwaskom/seaborn/releases.atom"
-        htmlUrl="https://github.com/mwaskom/seaborn/releases"
-        title="Release notes from seaborn" />
-      <outline text="Release notes from poetry"
-        type="rss"
-        xmlUrl="https://github.com/python-poetry/poetry/releases.atom"
-        htmlUrl="https://github.com/python-poetry/poetry/releases"
-        title="Release notes from poetry" />
-      <outline text="Release notes from faker"
-        type="rss"
-        xmlUrl="https://github.com/joke2k/faker/releases.atom"
-        htmlUrl="https://github.com/joke2k/faker/releases"
-        title="Release notes from faker" />
-      <outline text="Release notes from scipy"
-        type="rss"
-        xmlUrl="https://github.com/scipy/scipy/releases.atom"
-        htmlUrl="https://github.com/scipy/scipy/releases"
-        title="Release notes from scipy" />
       <outline text="Release notes from ruff"
         type="rss"
         xmlUrl="https://github.com/astral-sh/ruff/releases.atom"
         htmlUrl="https://github.com/astral-sh/ruff/releases"
         title="Release notes from ruff" />
-      <outline text="Release notes from cookiecutter-data-science"
+      <outline text="Release notes from seaborn"
         type="rss"
-        xmlUrl="https://github.com/drivendataorg/cookiecutter-data-science/releases.atom"
-        htmlUrl="https://github.com/drivendataorg/cookiecutter-data-science/releases"
-        title="Release notes from cookiecutter-data-science" />
+        xmlUrl="https://github.com/mwaskom/seaborn/releases.atom"
+        htmlUrl="https://github.com/mwaskom/seaborn/releases"
+        title="Release notes from seaborn" />
       <outline text="Release notes from sqlalchemy"
         type="rss"
         xmlUrl="https://github.com/sqlalchemy/sqlalchemy/releases.atom"
         htmlUrl="https://github.com/sqlalchemy/sqlalchemy/releases"
         title="Release notes from sqlalchemy" />
-      <outline text="Release notes from numpy"
-        type="rss"
-        xmlUrl="https://github.com/numpy/numpy/releases.atom"
-        htmlUrl="https://github.com/numpy/numpy/releases"
-        title="Release notes from numpy" />
-      <outline text="Release notes from scikit-learn"
-        type="rss"
-        xmlUrl="https://github.com/scikit-learn/scikit-learn/releases.atom"
-        htmlUrl="https://github.com/scikit-learn/scikit-learn/releases"
-        title="Release notes from scikit-learn" />
       <outline text="Release notes from mkdocs-material"
         type="rss"
         xmlUrl="https://github.com/squidfunk/mkdocs-material/releases.atom"
         htmlUrl="https://github.com/squidfunk/mkdocs-material/releases"
         title="Release notes from mkdocs-material" />
+      <outline text="Release notes from faker"
+        type="rss"
+        xmlUrl="https://github.com/joke2k/faker/releases.atom"
+        htmlUrl="https://github.com/joke2k/faker/releases"
+        title="Release notes from faker" />
+      <outline text="Release notes from poetry"
+        type="rss"
+        xmlUrl="https://github.com/python-poetry/poetry/releases.atom"
+        htmlUrl="https://github.com/python-poetry/poetry/releases"
+        title="Release notes from poetry" />
       <outline text="Release notes from pydantic"
         type="rss"
         xmlUrl="https://github.com/pydantic/pydantic/releases.atom"
         htmlUrl="https://github.com/pydantic/pydantic/releases"
         title="Release notes from pydantic" />
+      <outline text="Release notes from pandas"
+        type="rss"
+        xmlUrl="https://github.com/pandas-dev/pandas/releases.atom"
+        htmlUrl="https://github.com/pandas-dev/pandas/releases"
+        title="Release notes from pandas" />
+      <outline text="Release notes from cookiecutter-data-science"
+        type="rss"
+        xmlUrl="https://github.com/drivendataorg/cookiecutter-data-science/releases.atom"
+        htmlUrl="https://github.com/drivendataorg/cookiecutter-data-science/releases"
+        title="Release notes from cookiecutter-data-science" />
       <outline text="Release notes from pytest"
         type="rss"
         xmlUrl="https://github.com/pytest-dev/pytest/releases.atom"
         htmlUrl="https://github.com/pytest-dev/pytest/releases"
         title="Release notes from pytest" />
-      <outline text="Release notes from fastapi"
+      <outline text="Release notes from numpy"
         type="rss"
-        xmlUrl="https://github.com/fastapi/fastapi/releases.atom"
-        htmlUrl="https://github.com/fastapi/fastapi/releases"
-        title="Release notes from fastapi" />
+        xmlUrl="https://github.com/numpy/numpy/releases.atom"
+        htmlUrl="https://github.com/numpy/numpy/releases"
+        title="Release notes from numpy" />
       <outline text="Release notes from plotly.py"
         type="rss"
         xmlUrl="https://github.com/plotly/plotly.py/releases.atom"
         htmlUrl="https://github.com/plotly/plotly.py/releases"
         title="Release notes from plotly.py" />
-      <outline text="Release notes from matplotlib"
+      <outline text="Release notes from uv"
         type="rss"
-        xmlUrl="https://github.com/matplotlib/matplotlib/releases.atom"
-        htmlUrl="https://github.com/matplotlib/matplotlib/releases"
-        title="Release notes from matplotlib" />
+        xmlUrl="https://github.com/astral-sh/uv/releases.atom"
+        htmlUrl="https://github.com/astral-sh/uv/releases"
+        title="Release notes from uv" />
       <outline text="Release notes from quarto"
         type="rss"
         xmlUrl="https://github.com/quarto-dev/quarto/releases.atom"
         htmlUrl="https://github.com/quarto-dev/quarto/releases"
         title="Release notes from quarto" />
+      <outline text="Release notes from scipy"
+        type="rss"
+        xmlUrl="https://github.com/scipy/scipy/releases.atom"
+        htmlUrl="https://github.com/scipy/scipy/releases"
+        title="Release notes from scipy" />
+      <outline text="Release notes from scikit-learn"
+        type="rss"
+        xmlUrl="https://github.com/scikit-learn/scikit-learn/releases.atom"
+        htmlUrl="https://github.com/scikit-learn/scikit-learn/releases"
+        title="Release notes from scikit-learn" />
+      <outline text="Release notes from fastapi"
+        type="rss"
+        xmlUrl="https://github.com/fastapi/fastapi/releases.atom"
+        htmlUrl="https://github.com/fastapi/fastapi/releases"
+        title="Release notes from fastapi" />
+      <outline text="Release notes from matplotlib"
+        type="rss"
+        xmlUrl="https://github.com/matplotlib/matplotlib/releases.atom"
+        htmlUrl="https://github.com/matplotlib/matplotlib/releases"
+        title="Release notes from matplotlib" />
     </outline>
     <outline text="Youtube" title="Youtube">
-      <outline text="Asimov Academy"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCxXL5491Db9U8Rhfs-2LVFg"
-        htmlUrl="https://www.youtube.com/channel/UCxXL5491Db9U8Rhfs-2LVFg"
-        title="Asimov Academy" />
-      <outline text="Computer Science"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbmb5IoBtHZTpYZCDBOC1CA"
-        htmlUrl="https://www.youtube.com/channel/UCbmb5IoBtHZTpYZCDBOC1CA"
-        title="Computer Science" />
-      <outline text="IA Expert Academy"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaGrIWpwjWXT6OIQh9W4Riw"
-        htmlUrl="https://www.youtube.com/channel/UCaGrIWpwjWXT6OIQh9W4Riw"
-        title="IA Expert Academy" />
       <outline text="Mastering ML with Sreemanti"
         type="rss"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9kqXvkloWw2TwDtmvLWsMQ"
         htmlUrl="https://www.youtube.com/channel/UC9kqXvkloWw2TwDtmvLWsMQ"
         title="Mastering ML with Sreemanti" />
-      <outline text="Building Nubank"
+      <outline text="Computer Science"
         type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5yS6v2umoIXx8TSJsUEBKg"
-        htmlUrl="https://www.youtube.com/channel/UC5yS6v2umoIXx8TSJsUEBKg"
-        title="Building Nubank" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbmb5IoBtHZTpYZCDBOC1CA"
+        htmlUrl="https://www.youtube.com/channel/UCbmb5IoBtHZTpYZCDBOC1CA"
+        title="Computer Science" />
+      <outline text="Analytics Vidhya"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCH6gDteHtH4hg3o2343iObA"
+        htmlUrl="https://www.youtube.com/channel/UCH6gDteHtH4hg3o2343iObA"
+        title="Analytics Vidhya" />
+      <outline text="Michael Galarnyk"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2QvKS5O6QhqaZi4LyAEUnA"
+        htmlUrl="https://www.youtube.com/channel/UC2QvKS5O6QhqaZi4LyAEUnA"
+        title="Michael Galarnyk" />
+      <outline text="Téo Me Why"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-Xa9J9-B4jBOoBNIHkMMKA"
+        htmlUrl="https://www.youtube.com/channel/UC-Xa9J9-B4jBOoBNIHkMMKA"
+        title="Téo Me Why" />
+      <outline text="EstaTiDados"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4jROkPjTvnXRkuo2GAwKXw"
+        htmlUrl="https://www.youtube.com/channel/UC4jROkPjTvnXRkuo2GAwKXw"
+        title="EstaTiDados" />
+      <outline text="NeuralNine"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8wZnXYK_CGKlBcZp-GxYPA"
+        htmlUrl="https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
+        title="NeuralNine" />
+      <outline text="Let&apos;s Data"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCS58303Tmd0wIKTddmRskdQ"
+        htmlUrl="https://www.youtube.com/channel/UCS58303Tmd0wIKTddmRskdQ"
+        title="Let&apos;s Data" />
+      <outline text="Eduardo | Ciência dos Dados"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCd3ThZLzVDDnKSZMsbK0icg"
+        htmlUrl="https://www.youtube.com/channel/UCd3ThZLzVDDnKSZMsbK0icg"
+        title="Eduardo | Ciência dos Dados" />
+      <outline text="Eduardo Mendes"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCAaKeg-BocRqphErdtIUFFw"
+        htmlUrl="https://www.youtube.com/channel/UCAaKeg-BocRqphErdtIUFFw"
+        title="Eduardo Mendes" />
+      <outline text="Data Hackers"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCISrteT3SsMdSkoPWYJ2fGA"
+        htmlUrl="https://www.youtube.com/channel/UCISrteT3SsMdSkoPWYJ2fGA"
+        title="Data Hackers" />
+      <outline text="Two Minute Papers"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
+        htmlUrl="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg"
+        title="Two Minute Papers" />
+      <outline text="IA Expert Academy"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCaGrIWpwjWXT6OIQh9W4Riw"
+        htmlUrl="https://www.youtube.com/channel/UCaGrIWpwjWXT6OIQh9W4Riw"
+        title="IA Expert Academy" />
+      <outline text="365 Data Science"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEBpSZhI1X8WaP-kY_2LLcg"
+        htmlUrl="https://www.youtube.com/channel/UCEBpSZhI1X8WaP-kY_2LLcg"
+        title="365 Data Science" />
+      <outline text="Thu Vu"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJQJAI7IjbLcpsjWdSzYz0Q"
+        htmlUrl="https://www.youtube.com/channel/UCJQJAI7IjbLcpsjWdSzYz0Q"
+        title="Thu Vu" />
+      <outline text="Python Programmer"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC68KSmHePPePCjW4v57VPQg"
+        htmlUrl="https://www.youtube.com/channel/UC68KSmHePPePCjW4v57VPQg"
+        title="Python Programmer" />
+      <outline text="Mario Filho"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCIFd_i2iwYox1PPm9rD8wFA"
+        htmlUrl="https://www.youtube.com/channel/UCIFd_i2iwYox1PPm9rD8wFA"
+        title="Mario Filho" />
+      <outline text="Prof. Fernanda Maciel"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCX8PPnYQKpO0OY_7yIPA0Qw"
+        htmlUrl="https://www.youtube.com/channel/UCX8PPnYQKpO0OY_7yIPA0Qw"
+        title="Prof. Fernanda Maciel" />
+      <outline text="Asimov Academy"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCxXL5491Db9U8Rhfs-2LVFg"
+        htmlUrl="https://www.youtube.com/channel/UCxXL5491Db9U8Rhfs-2LVFg"
+        title="Asimov Academy" />
+      <outline text="Universidade dos Dados"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZDVnGEyggjuo2kgpmXdzGA"
+        htmlUrl="https://www.youtube.com/channel/UCZDVnGEyggjuo2kgpmXdzGA"
+        title="Universidade dos Dados" />
+      <outline text="Corre de PhD"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBiL-Edw7VFdmsUsYOPjDMQ"
+        htmlUrl="https://www.youtube.com/channel/UCBiL-Edw7VFdmsUsYOPjDMQ"
+        title="Corre de PhD" />
+      <outline text="Programação Dinâmica"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC70mr11REaCqgKke7DPJoLg"
+        htmlUrl="https://www.youtube.com/channel/UC70mr11REaCqgKke7DPJoLg"
+        title="Programação Dinâmica" />
+      <outline text="Artem Kirsanov"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCR2uRTQ53V_egXKFflMMaaw"
+        htmlUrl="https://www.youtube.com/channel/UCR2uRTQ53V_egXKFflMMaaw"
+        title="Artem Kirsanov" />
+      <outline text="Comunidade DS"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCar5Cr-pVz08GY_6I3RX9bA"
+        htmlUrl="https://www.youtube.com/channel/UCar5Cr-pVz08GY_6I3RX9bA"
+        title="Comunidade DS" />
+      <outline text="3Blue1Brown"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw"
+        htmlUrl="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw"
+        title="3Blue1Brown" />
+      <outline text="Rodrigo TeORiA"
+        type="rss"
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPFWpDjqTzDEyCW-UyuJUIQ"
+        htmlUrl="https://www.youtube.com/channel/UCPFWpDjqTzDEyCW-UyuJUIQ"
+        title="Rodrigo TeORiA" />
       <outline text="2MinutesPy"
         type="rss"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbcD3tpv7kIQU2cp5F9KJNA"
@@ -170,201 +275,91 @@
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCKQdc0-Targ4nDIAUrlfKiA"
         htmlUrl="https://www.youtube.com/channel/UCKQdc0-Targ4nDIAUrlfKiA"
         title="Python Simplified" />
-      <outline text="Let&apos;s Data"
+      <outline text="Building Nubank"
         type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCS58303Tmd0wIKTddmRskdQ"
-        htmlUrl="https://www.youtube.com/channel/UCS58303Tmd0wIKTddmRskdQ"
-        title="Let&apos;s Data" />
-      <outline text="Programação Dinâmica"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC70mr11REaCqgKke7DPJoLg"
-        htmlUrl="https://www.youtube.com/channel/UC70mr11REaCqgKke7DPJoLg"
-        title="Programação Dinâmica" />
-      <outline text="Eduardo | Ciência dos Dados"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCd3ThZLzVDDnKSZMsbK0icg"
-        htmlUrl="https://www.youtube.com/channel/UCd3ThZLzVDDnKSZMsbK0icg"
-        title="Eduardo | Ciência dos Dados" />
-      <outline text="Two Minute Papers"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCbfYPyITQ-7l4upoX8nvctg"
-        htmlUrl="https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg"
-        title="Two Minute Papers" />
-      <outline text="Python Programmer"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC68KSmHePPePCjW4v57VPQg"
-        htmlUrl="https://www.youtube.com/channel/UC68KSmHePPePCjW4v57VPQg"
-        title="Python Programmer" />
-      <outline text="Analytics Vidhya"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCH6gDteHtH4hg3o2343iObA"
-        htmlUrl="https://www.youtube.com/channel/UCH6gDteHtH4hg3o2343iObA"
-        title="Analytics Vidhya" />
-      <outline text="Artem Kirsanov"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCR2uRTQ53V_egXKFflMMaaw"
-        htmlUrl="https://www.youtube.com/channel/UCR2uRTQ53V_egXKFflMMaaw"
-        title="Artem Kirsanov" />
-      <outline text="Prof. Fernanda Maciel"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCX8PPnYQKpO0OY_7yIPA0Qw"
-        htmlUrl="https://www.youtube.com/channel/UCX8PPnYQKpO0OY_7yIPA0Qw"
-        title="Prof. Fernanda Maciel" />
-      <outline text="Thu Vu"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCJQJAI7IjbLcpsjWdSzYz0Q"
-        htmlUrl="https://www.youtube.com/channel/UCJQJAI7IjbLcpsjWdSzYz0Q"
-        title="Thu Vu" />
-      <outline text="Rodrigo TeORiA"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCPFWpDjqTzDEyCW-UyuJUIQ"
-        htmlUrl="https://www.youtube.com/channel/UCPFWpDjqTzDEyCW-UyuJUIQ"
-        title="Rodrigo TeORiA" />
-      <outline text="Corre de PhD"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCBiL-Edw7VFdmsUsYOPjDMQ"
-        htmlUrl="https://www.youtube.com/channel/UCBiL-Edw7VFdmsUsYOPjDMQ"
-        title="Corre de PhD" />
-      <outline text="EstaTiDados"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC4jROkPjTvnXRkuo2GAwKXw"
-        htmlUrl="https://www.youtube.com/channel/UC4jROkPjTvnXRkuo2GAwKXw"
-        title="EstaTiDados" />
-      <outline text="Michael Galarnyk"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC2QvKS5O6QhqaZi4LyAEUnA"
-        htmlUrl="https://www.youtube.com/channel/UC2QvKS5O6QhqaZi4LyAEUnA"
-        title="Michael Galarnyk" />
-      <outline text="NeuralNine"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC8wZnXYK_CGKlBcZp-GxYPA"
-        htmlUrl="https://www.youtube.com/channel/UC8wZnXYK_CGKlBcZp-GxYPA"
-        title="NeuralNine" />
-      <outline text="365 Data Science"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCEBpSZhI1X8WaP-kY_2LLcg"
-        htmlUrl="https://www.youtube.com/channel/UCEBpSZhI1X8WaP-kY_2LLcg"
-        title="365 Data Science" />
-      <outline text="Comunidade DS"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCar5Cr-pVz08GY_6I3RX9bA"
-        htmlUrl="https://www.youtube.com/channel/UCar5Cr-pVz08GY_6I3RX9bA"
-        title="Comunidade DS" />
-      <outline text="Universidade dos Dados"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCZDVnGEyggjuo2kgpmXdzGA"
-        htmlUrl="https://www.youtube.com/channel/UCZDVnGEyggjuo2kgpmXdzGA"
-        title="Universidade dos Dados" />
+        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC5yS6v2umoIXx8TSJsUEBKg"
+        htmlUrl="https://www.youtube.com/channel/UC5yS6v2umoIXx8TSJsUEBKg"
+        title="Building Nubank" />
       <outline text="AI Explained"
         type="rss"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCNJ1Ymd5yFuUPtn21xtRbbw"
         htmlUrl="https://www.youtube.com/channel/UCNJ1Ymd5yFuUPtn21xtRbbw"
         title="AI Explained" />
-      <outline text="3Blue1Brown"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw"
-        htmlUrl="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw"
-        title="3Blue1Brown" />
-      <outline text="Mario Filho"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCIFd_i2iwYox1PPm9rD8wFA"
-        htmlUrl="https://www.youtube.com/channel/UCIFd_i2iwYox1PPm9rD8wFA"
-        title="Mario Filho" />
-      <outline text="Eduardo Mendes"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCAaKeg-BocRqphErdtIUFFw"
-        htmlUrl="https://www.youtube.com/channel/UCAaKeg-BocRqphErdtIUFFw"
-        title="Eduardo Mendes" />
       <outline text="Data Science Learning Community Videos"
         type="rss"
         xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCCaChdLMTYMxyawR_Qf-kYA"
         htmlUrl="https://www.youtube.com/channel/UCCaChdLMTYMxyawR_Qf-kYA"
         title="Data Science Learning Community Videos" />
-      <outline text="Téo Me Why"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC-Xa9J9-B4jBOoBNIHkMMKA"
-        htmlUrl="https://www.youtube.com/channel/UC-Xa9J9-B4jBOoBNIHkMMKA"
-        title="Téo Me Why" />
-      <outline text="Data Hackers"
-        type="rss"
-        xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCISrteT3SsMdSkoPWYJ2fGA"
-        htmlUrl="https://www.youtube.com/channel/UCISrteT3SsMdSkoPWYJ2fGA"
-        title="Data Hackers" />
     </outline>
     <outline text="Python" title="Python">
-      <outline text="The Python Package Index Blog"
-        type="rss"
-        xmlUrl="https://blog.pypi.org/feed_rss_created.xml"
-        htmlUrl="https://blog.pypi.org/"
-        title="The Python Package Index Blog" />
-      <outline text="Python Software Foundation News"
-        type="rss"
-        xmlUrl="https://pyfound.blogspot.com/feeds/posts/default"
-        htmlUrl="https://pyfound.blogspot.com/"
-        title="Python Software Foundation News" />
-      <outline text="Python Insider"
-        type="rss"
-        xmlUrl="https://blog.python.org/feeds/posts/default?alt=rss"
-        htmlUrl="https://pythoninsider.blogspot.com/"
-        title="Python Insider" />
-      <outline text="The Pythonworld - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/the-pythonworld"
-        htmlUrl="https://medium.com/the-pythonworld?source=rss----ffcf9c43f8e9---4"
-        title="The Pythonworld - Medium" />
       <outline text="Newest Python PEPs"
         type="rss"
         xmlUrl="https://peps.python.org/peps.rss"
         htmlUrl="https://peps.python.org/"
         title="Newest Python PEPs" />
+      <outline text="Python Software Foundation News"
+        type="rss"
+        xmlUrl="https://pyfound.blogspot.com/feeds/posts/default"
+        htmlUrl="https://pyfound.blogspot.com/"
+        title="Python Software Foundation News" />
+      <outline text="The Python Package Index Blog"
+        type="rss"
+        xmlUrl="https://blog.pypi.org/feed_rss_created.xml"
+        htmlUrl="https://blog.pypi.org/"
+        title="The Python Package Index Blog" />
+      <outline text="The Pythonworld - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/the-pythonworld"
+        htmlUrl="https://medium.com/the-pythonworld?source=rss----ffcf9c43f8e9---4"
+        title="The Pythonworld - Medium" />
+      <outline text="Python Insider"
+        type="rss"
+        xmlUrl="https://blog.python.org/feeds/posts/default?alt=rss"
+        htmlUrl="https://pythoninsider.blogspot.com/"
+        title="Python Insider" />
     </outline>
     <outline text="Data Science" title="Data Science">
-      <outline text="Distill" type="rss" xmlUrl="https://distill.pub/rss.xml" htmlUrl="https://distill.pub/" title="Distill" />
-      <outline text="Analytics Vidhya"
-        type="rss"
-        xmlUrl="https://www.analyticsvidhya.com/feed/"
-        htmlUrl="https://www.analyticsvidhya.com/"
-        title="Analytics Vidhya" />
-      <outline text="The TensorFlow Blog"
-        type="rss"
-        xmlUrl="https://blog.tensorflow.org/feeds/posts/default"
-        htmlUrl="https://blog.tensorflow.org/"
-        title="The TensorFlow Blog" />
-      <outline text="Data Hackers - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/data-hackers"
-        htmlUrl="https://medium.com/data-hackers?source=rss----da79ab871116---4"
-        title="Data Hackers - Medium" />
-      <outline text="Data Science at Microsoft - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/data-science-at-microsoft"
-        htmlUrl="https://medium.com/data-science-at-microsoft?source=rss----a6e43238cdaf---4"
-        title="Data Science at Microsoft - Medium" />
-      <outline text="Data Analysis Journal"
-        type="rss"
-        xmlUrl="https://dataanalysis.substack.com/feed"
-        htmlUrl="https://dataanalysis.substack.com/"
-        title="Data Analysis Journal" />
-      <outline text="Datapsico - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/datapsico"
-        htmlUrl="https://medium.com/datapsico?source=rss----462c4dd632e7---4"
-        title="Datapsico - Medium" />
-      <outline text="Data Science Collective - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/data-science-collective"
-        htmlUrl="https://medium.com/data-science-collective?source=rss----8993e01dcfd3---4"
-        title="Data Science Collective - Medium" />
-      <outline text="Towards Data Science"
-        type="rss"
-        xmlUrl="https://towardsdatascience.com/feed/"
-        htmlUrl="https://towardsdatascience.com/"
-        title="Towards Data Science" />
       <outline text="Daily Dose of Data Science"
         type="rss"
         xmlUrl="https://blog.dailydoseofds.com/feed"
         htmlUrl="https://blog.dailydoseofds.com/"
         title="Daily Dose of Data Science" />
+      <outline text="Towards Data Science"
+        type="rss"
+        xmlUrl="https://towardsdatascience.com/feed/"
+        htmlUrl="https://towardsdatascience.com/"
+        title="Towards Data Science" />
+      <outline text="Analytics Vidhya"
+        type="rss"
+        xmlUrl="https://www.analyticsvidhya.com/feed/"
+        htmlUrl="https://www.analyticsvidhya.com/"
+        title="Analytics Vidhya" />
+      <outline text="Data Science Collective - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/data-science-collective"
+        htmlUrl="https://medium.com/data-science-collective?source=rss----8993e01dcfd3---4"
+        title="Data Science Collective - Medium" />
+      <outline text="The TensorFlow Blog"
+        type="rss"
+        xmlUrl="https://blog.tensorflow.org/feeds/posts/default"
+        htmlUrl="https://blog.tensorflow.org/"
+        title="The TensorFlow Blog" />
+      <outline text="Data Science at Microsoft - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/data-science-at-microsoft"
+        htmlUrl="https://medium.com/data-science-at-microsoft?source=rss----a6e43238cdaf---4"
+        title="Data Science at Microsoft - Medium" />
+      <outline text="Datapsico - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/datapsico"
+        htmlUrl="https://medium.com/datapsico?source=rss----462c4dd632e7---4"
+        title="Datapsico - Medium" />
+      <outline text="Data Hackers - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/data-hackers"
+        htmlUrl="https://medium.com/data-hackers?source=rss----da79ab871116---4"
+        title="Data Hackers - Medium" />
+      <outline text="Distill" type="rss" xmlUrl="https://distill.pub/rss.xml" htmlUrl="https://distill.pub/" title="Distill" />
     </outline>
     <outline text="Dataviz" title="Dataviz">
       <outline text="Storytelling with data"
@@ -379,17 +374,26 @@
         title="Nightingale" />
     </outline>
     <outline text="Tech News" title="Tech News">
-      <outline text="TabNews"
+      <outline text="TechCrunch"
         type="rss"
-        xmlUrl="https://www.tabnews.com.br/recentes/rss"
-        htmlUrl="https://www.tabnews.com.br/recentes/rss"
-        title="TabNews" />
+        xmlUrl="https://techcrunch.com/feed/"
+        htmlUrl="https://techcrunch.com/"
+        title="TechCrunch" />
       <outline text="Canaltech - Colunas"
         type="rss"
         xmlUrl="https://canaltech.com.br/rss/colunas/"
         htmlUrl="https://canaltech.com.br/colunas/"
         title="Canaltech - Colunas" />
-      <outline text="Futurism" type="rss" xmlUrl="https://futurism.com/feed" htmlUrl="https://futurism.com/" title="Futurism" />
+      <outline text="Data Analysis Journal"
+        type="rss"
+        xmlUrl="https://dataanalysis.substack.com/feed"
+        htmlUrl="https://dataanalysis.substack.com/"
+        title="Data Analysis Journal" />
+      <outline text="The Verge"
+        type="rss"
+        xmlUrl="https://www.theverge.com/rss/index.xml"
+        htmlUrl="https://www.theverge.com/"
+        title="The Verge" />
       <outline text="Search Engine Land"
         type="rss"
         xmlUrl="https://searchengineland.com/feed"
@@ -405,58 +409,94 @@
         xmlUrl="https://www.technologyreview.com/feed/"
         htmlUrl="https://www.technologyreview.com/"
         title="MIT Technology Review" />
-      <outline text="The Verge"
-        type="rss"
-        xmlUrl="https://www.theverge.com/rss/index.xml"
-        htmlUrl="https://www.theverge.com/"
-        title="The Verge" />
+      <outline text="Futurism" type="rss" xmlUrl="https://futurism.com/feed" htmlUrl="https://futurism.com/" title="Futurism" />
       <outline text="Olhar Digital"
         type="rss"
         xmlUrl="https://olhardigital.com.br/editorias/noticias/feed/"
         htmlUrl="https://olhardigital.com.br/editorias/noticias/"
         title="Olhar Digital" />
+      <outline text="TabNews"
+        type="rss"
+        xmlUrl="https://www.tabnews.com.br/recentes/rss"
+        htmlUrl="https://www.tabnews.com.br/recentes/rss"
+        title="TabNews" />
     </outline>
     <outline text="Tech Blogs" title="Tech Blogs">
-      <outline text="Snowflake Builders Blog: Data Engineers, App Developers, AI/ML, &amp;amp; Data Science - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/snowflake"
-        htmlUrl="https://medium.com/snowflake?source=rss----34b6daafc07---4"
-        title="Snowflake Builders Blog: Data Engineers, App Developers, AI/ML, &amp;amp; Data Science - Medium" />
-      <outline text="Spotify Engineering"
-        type="rss"
-        xmlUrl="https://engineering.atspotify.com/feed"
-        htmlUrl="https://engineering.atspotify.com/"
-        title="Spotify Engineering" />
-      <outline text="The Pragmatic Engineer"
-        type="rss"
-        xmlUrl="https://newsletter.pragmaticengineer.com/feed"
-        htmlUrl="https://newsletter.pragmaticengineer.com/"
-        title="The Pragmatic Engineer" />
-      <outline text="Ambev Tech - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/ambevtech"
-        htmlUrl="https://medium.com/ambevtech?source=rss----316a4f70aeb5---4"
-        title="Ambev Tech - Medium" />
-      <outline text="Airbnb Tech Blog - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/airbnb-engineering"
-        htmlUrl="https://medium.com/airbnb-engineering?source=rss----53c7c27702d5---4"
-        title="Airbnb Tech Blog - Medium" />
-      <outline text="Microsoft Research"
-        type="rss"
-        xmlUrl="https://www.microsoft.com/en-us/research/feed/"
-        htmlUrl="https://www.microsoft.com/en-us/research/"
-        title="Microsoft Research" />
       <outline text="Spotify Research"
         type="rss"
         xmlUrl="https://research.atspotify.com/feed"
         htmlUrl="https://research.atspotify.com/"
         title="Spotify Research" />
+      <outline text="Itaú Tech on Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/@itautecnologia"
+        htmlUrl="https://medium.com/@itautecnologia?source=rss-d3afc1287a2c------2"
+        title="Itaú Tech on Medium" />
+      <outline text="Snowflake Builders Blog: Data Engineers, App Developers, AI/ML, &amp;amp; Data Science - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/snowflake"
+        htmlUrl="https://medium.com/snowflake?source=rss----34b6daafc07---4"
+        title="Snowflake Builders Blog: Data Engineers, App Developers, AI/ML, &amp;amp; Data Science - Medium" />
+      <outline text="iFood Tech - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/ifood-tech"
+        htmlUrl="https://medium.com/ifood-tech?source=rss----d8f930b20416---4"
+        title="iFood Tech - Medium" />
+      <outline text="QuintoAndar - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/quintoandar-tech-blog"
+        htmlUrl="https://medium.com/quintoandar-tech-blog?source=rss----f21872b461f5---4"
+        title="QuintoAndar - Medium" />
       <outline text="Building Nubank"
         type="rss"
         xmlUrl="https://building.nubank.com/pt-br/feed/"
         htmlUrl="https://building.nubank.com/pt-br/"
         title="Building Nubank" />
+      <outline text="Google Ads Developer Blog"
+        type="rss"
+        xmlUrl="http://feeds.feedburner.com/GoogleAdsDeveloperBlog"
+        htmlUrl="http://ads-developers.googleblog.com/"
+        title="Google Ads Developer Blog" />
+      <outline text="DEV Community: WoMakersCode"
+        type="rss"
+        xmlUrl="https://dev.to/feed/womakerscode"
+        htmlUrl="https://dev.to/womakerscode"
+        title="DEV Community: WoMakersCode" />
+      <outline text="The latest research from Google"
+        type="rss"
+        xmlUrl="https://research.google/blog/rss/"
+        htmlUrl="https://research.google/blog/"
+        title="The latest research from Google" />
+      <outline text="Engineering at Meta"
+        type="rss"
+        xmlUrl="https://engineering.fb.com/feed/"
+        htmlUrl="https://engineering.fb.com/"
+        title="Engineering at Meta" />
+      <outline text="The Pragmatic Engineer"
+        type="rss"
+        xmlUrl="https://newsletter.pragmaticengineer.com/feed"
+        htmlUrl="https://newsletter.pragmaticengineer.com/"
+        title="The Pragmatic Engineer" />
+      <outline text="Spotify Engineering"
+        type="rss"
+        xmlUrl="https://engineering.atspotify.com/feed"
+        htmlUrl="https://engineering.atspotify.com/"
+        title="Spotify Engineering" />
+      <outline text="Microsoft Power BI Blog"
+        type="rss"
+        xmlUrl="https://powerbi.microsoft.com/en-us/blog/feed/"
+        htmlUrl="https://powerbi.microsoft.com/en-us/blog/"
+        title="Microsoft Power BI Blog" />
+      <outline text="Airbnb Tech Blog - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/airbnb-engineering"
+        htmlUrl="https://medium.com/airbnb-engineering?source=rss----53c7c27702d5---4"
+        title="Airbnb Tech Blog - Medium" />
+      <outline text="Grupo Boticário - Medium"
+        type="rss"
+        xmlUrl="https://medium.com/feed/gbtech"
+        htmlUrl="https://medium.com/gbtech?source=rss----12af7bd9e76c---4"
+        title="Grupo Boticário - Medium" />
       <outline text="Inside PicPay - Medium"
         type="rss"
         xmlUrl="https://medium.com/feed/inside-picpay"
@@ -467,61 +507,26 @@
         xmlUrl="https://netflixtechblog.com/feed"
         htmlUrl="https://netflixtechblog.com/?source=rss----2615bd06b42e---4"
         title="Netflix TechBlog - Medium" />
-      <outline text="Engineering at Meta"
+      <outline text="Ambev Tech - Medium"
         type="rss"
-        xmlUrl="https://engineering.fb.com/feed/"
-        htmlUrl="https://engineering.fb.com/"
-        title="Engineering at Meta" />
-      <outline text="QuintoAndar - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/quintoandar-tech-blog"
-        htmlUrl="https://medium.com/quintoandar-tech-blog?source=rss----f21872b461f5---4"
-        title="QuintoAndar - Medium" />
-      <outline text="Grupo Boticário - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/gbtech"
-        htmlUrl="https://medium.com/gbtech?source=rss----12af7bd9e76c---4"
-        title="Grupo Boticário - Medium" />
-      <outline text="DeepMind Safety Research on Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/@deepmindsafetyresearch"
-        htmlUrl="https://medium.com/@deepmindsafetyresearch?source=rss-55e08ddea42e------2"
-        title="DeepMind Safety Research on Medium" />
-      <outline text="DEV Community: WoMakersCode"
-        type="rss"
-        xmlUrl="https://dev.to/feed/womakerscode"
-        htmlUrl="https://dev.to/womakerscode"
-        title="DEV Community: WoMakersCode" />
-      <outline text="Itaú Tech on Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/@itautecnologia"
-        htmlUrl="https://medium.com/@itautecnologia?source=rss-d3afc1287a2c------2"
-        title="Itaú Tech on Medium" />
-      <outline text="Microsoft Power BI Blog"
-        type="rss"
-        xmlUrl="https://powerbi.microsoft.com/en-us/blog/feed/"
-        htmlUrl="https://powerbi.microsoft.com/en-us/blog/"
-        title="Microsoft Power BI Blog" />
-      <outline text="iFood Tech - Medium"
-        type="rss"
-        xmlUrl="https://medium.com/feed/ifood-tech"
-        htmlUrl="https://medium.com/ifood-tech?source=rss----d8f930b20416---4"
-        title="iFood Tech - Medium" />
+        xmlUrl="https://medium.com/feed/ambevtech"
+        htmlUrl="https://medium.com/ambevtech?source=rss----316a4f70aeb5---4"
+        title="Ambev Tech - Medium" />
       <outline text="Hugging Face - Blog"
         type="rss"
         xmlUrl="https://huggingface.co/blog/feed.xml"
         htmlUrl="https://huggingface.co/blog"
         title="Hugging Face - Blog" />
-      <outline text="Google Ads Developer Blog"
+      <outline text="Microsoft Research"
         type="rss"
-        xmlUrl="http://feeds.feedburner.com/GoogleAdsDeveloperBlog"
-        htmlUrl="http://ads-developers.googleblog.com/"
-        title="Google Ads Developer Blog" />
-      <outline text="The latest research from Google"
+        xmlUrl="https://www.microsoft.com/en-us/research/feed/"
+        htmlUrl="https://www.microsoft.com/en-us/research/"
+        title="Microsoft Research" />
+      <outline text="DeepMind Safety Research on Medium"
         type="rss"
-        xmlUrl="https://research.google/blog/rss/"
-        htmlUrl="https://research.google/blog/"
-        title="The latest research from Google" />
+        xmlUrl="https://medium.com/feed/@deepmindsafetyresearch"
+        htmlUrl="https://medium.com/@deepmindsafetyresearch?source=rss-55e08ddea42e------2"
+        title="DeepMind Safety Research on Medium" />
     </outline>
   </body>
 </opml>
