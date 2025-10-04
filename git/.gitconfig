@@ -6,6 +6,8 @@
 	defaultBranch = main
 [pull]
 	ff = only
+	default = simple
+	followTags = true
 [commit]
     gpgsign = true
 [merge]
