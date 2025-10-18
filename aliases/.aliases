@@ -25,9 +25,11 @@ alias cat='batcat'
 alias bat='batcat'
 
 # Git
-alias gcm='git commit -m'
-alias gcam='git commit -a -m'
-alias gcad='git commit -a --amend'
+alias gc='git commit -m'
+alias gca='git commit -a -m'
+alias gcaa='git commit -a --amend'
+alias gp='git pull --no-verify-signatures'
+alias gm='git merge --no-verify-signatures'
 
 # Docker
 alias 'dstart'='sudo service docker start'
