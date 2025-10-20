@@ -23,6 +23,7 @@ alias g='git'
 alias d='docker'
 alias cat='batcat'
 alias bat='batcat'
+alias pos="positron"
 
 # Git
 alias gc='git commit -m'
