@@ -1,7 +1,7 @@
 [user]
 	name = Marcelo Henrique Fonseca
 	email = 6546651+marcelohfonseca@users.noreply.github.com
-	signingkey = 14E8CD185AFC365B
+	signingkey = B17BD6B494D4735F
 [init]
 	defaultBranch = main
 [pull]
@@ -16,14 +16,12 @@
     gpgsign = true
 [log]
     showSignature = true
-[core]
-    sshCommand = ssh -i ~/.ssh/id_ed25519
 [lfs]
     sshCommand = ssh -i ~/.ssh/id_ed25519
-[credential]
-	helper = !gh auth git-credential
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+[credential]
+        helper = !gh auth git-credential
