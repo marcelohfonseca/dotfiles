@@ -1,0 +1,67 @@
+{
+    // default profile
+    //"breadcrumbs.enabled": false,
+    "explorer.compactFolders": false,
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.activityBar.location": "default", // control+q -> quickOpenView
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.iconTheme": "symbols",
+    "symbols.hidesExplorerArrows": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.visible": true,
+    "workbench.tree.indent": 18,
+    "window.commandCenter": false,
+    // editor settings
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "line",
+    "editor.cursorWidth": 3,
+    "editor.fontFamily": "'FiraCode Nerd Font', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.formatOnPaste": true,
+    "editor.letterSpacing": 0.1,
+    "editor.lineHeight": 20,
+    "editor.lineNumbers": "on",
+    "editor.minimap.enabled": false,
+    "editor.rulers": [80, 120],
+    "editor.renderLineHighlight": "gutter",
+    "editor.semanticHighlighting.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "auto",
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    // terminal settings
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.linux": {
+        "zsh": {
+            "path": "zsh"
+        }
+    },
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+        }
+    },
+    // file settings
+    "files.associations": {
+        ".env": "dotenv",
+        ".log": "log",
+        "renv.lock": "json"
+    },
+    "files.exclude": {
+        "**/__pycache__": true
+    },
+    "files.insertFinalNewline": true,
+    // git settings
+    "git.openRepositoryInParentFolders": "never",
+    // other settings
+    "positron.assistant.enable": true,
+}

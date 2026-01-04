@@ -8,6 +8,8 @@ Este repositório contém meus arquivos de configuração (dotfiles) para git, z
     │   └── .aliases
     ├── bash/
     │   └── .bashrc
+    ├── config/
+    │   └── Positron/User/settings.json
     ├── git/
     │   └── .gitconfig
     ├── zsh/
@@ -15,7 +17,8 @@ Este repositório contém meus arquivos de configuração (dotfiles) para git, z
     │   ├── .zprofile
     │   └── .zshrc
     ├── feed.OPML
-    └── README.md
+    ├── README.md
+    └── tilingshell-layouts.json
 ```
 
 ## Como Usar
@@ -43,6 +46,7 @@ ln -s ~/.dotfiles/zsh/.p10k.zsh ~/.p10k.zsh
 ln -s ~/.dotfiles/zsh/.zprofile ~/.zprofile
 ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
 ln -s ~/.dotfiles/feed.OPML ~/feed.OPML
+ln -s ~/.dotfiles/config/Positron/User/settings.json ~/.config/Positron/User/settings.json
 ```
 
 Após criar os links simbólicos, reinicie o terminal para que as configurações sejam aplicadas.
