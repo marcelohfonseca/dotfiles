@@ -6,11 +6,11 @@
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
     "workbench.activityBar.location": "default", // control+q -> quickOpenView
-    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.editor.labelFormat": "short",
     "workbench.editor.splitInGroupLayout": "vertical",
     "workbench.editor.tabSizing": "shrink",
-    "workbench.iconTheme": "symbols",
+    "workbench.iconTheme": "catppuccin-macchiato",
     "symbols.hidesExplorerArrows": false,
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "newUntitledFile",
