@@ -1,7 +1,7 @@
 [user]
 	name = Marcelo Henrique Fonseca
 	email = dev@marcelofonseca.me
-	signingkey = 30FA8A29180E590E803F5C53B17BD6B494D4735F
+	signingkey = ~/.ssh/id_ed25519_sk.pub
 [init]
 	defaultBranch = main
 [pull]
@@ -9,7 +9,7 @@
 	default = simple
 	followTags = true
 [commit]
-    gpgsign = true
+	gpgsign = true
 [merge]
     verifySignatures = false
 [tag]
@@ -17,11 +17,13 @@
 [log]
     showSignature = true
 [lfs]
-    sshCommand = ssh -i ~/.ssh/id_ed25519
-[filter "lfs"]
-	process = git-lfs filter-process
-	required = true
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
+    filter = git-lfs filter-process
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
 [credential]
         helper = !gh auth git-credential
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	allowedSignersFile = ~/.config/git/allowed_signers
