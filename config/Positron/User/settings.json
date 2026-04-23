@@ -5,7 +5,7 @@
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     "extensions.ignoreRecommendations": true,
-    "workbench.activityBar.location": "default", // control+q -> quickOpenView
+    "workbench.activityBar.location": "hidden", // control+q -> quickOpenView
     "workbench.colorTheme": "Catppuccin Macchiato",
     "workbench.colorCustomizations": {
         "editorRuler.foreground": "#333"
