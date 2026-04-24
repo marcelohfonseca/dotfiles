@@ -1,46 +1,75 @@
-# Meus Dotfiles
+# Gerenciamento dos meus .dotfiles
 
-Este repositório contém meus arquivos de configuração (dotfiles) para git, zsh, aliases e feeds no padrão OPML.
+Este repositório contém meus arquivos de configuração (dotfiles) para o ambiente Linux.
 
 ```txt
     .
-    ├── aliases/
-    │   └── .aliases
-    ├── git/
-    │   └── .gitconfig
-    ├── rss/
-    │   └── feed.OPML
-    ├── zsh/
-    │   └── .zshrc
+    ├── .aliases
+    ├── .feed.OPML
+    ├── .gitconfig
+    ├── .zshrc
     └── README.md
 ```
 
 ## Como Usar
 
-Caso os arquivos já existam, faça um backup antes de clonar o repositório, ou remova-os com o comando `rm`:
+> Recomenda-se sempre fazer backup dos arquivos existes antes de aplicar os dotfiles.
+
+1. Remover arquivos antigos (se existirem)
 
 ```sh
 rm ~/.aliases ~/.gitconfig ~/feed.OPML ~/.zshrc
 ```
 
-Agore clone o repositório na pasta **~/.dotfiles** (ou outra pasta de sua preferência):
+2. Clonar o repositório
 
 ```sh
 git clone git@github.com:marcelohfonseca/dotfiles.git ~/.dotfiles
 
 ```
 
-Com o repositório clonado, crie links simbólicos para os arquivos de configuração. Exemplo:
+3. Instalar o [GNU Stow](https://www.gnu.org/software/stow/)
 
 ```sh
-ln -s ~/.dotfiles/aliases/.aliases ~/.aliases
-ln -s ~/.dotfiles/git/.gitconfig ~/.gitconfig
-ln -s ~/.dotfiles/rss/feed.OPML ~/feed.OPML
-ln -s ~/.dotfiles/zsh/.zshrc ~/.zshrc
+sudo apt update && sudo apt install stow -y
 ```
 
-Após criar os links simbólicos, reinicie o terminal para que as configurações sejam aplicadas.
+4. Criar os symlinks com GNU Stow
 
-```sh
-source ~/.zshrc
 ```
+cd ~/.dotfiles
+stow .
+```
+
+## Como isso funciona
+
+O GNU Stow cria links simbólicos (symlinks) da sua `$HOME` para os arquivos dentro do repositório.
+
+Exemplo:
+
+```
+~/.zshrc → ~/.dotfiles/zsh/.zshrc
+```
+
+Ou seja:
+- Você edita os arquivos dentro de `~/.dotfiles`
+- E o sistema usa eles como se estivessem na `$HOME`
+
+## Criação de novos "symlinks"
+
+Sempre que adicionar algum novo arquivo a estrutura, será necessário executar o comando abaixo para gerar o novo link simbólico:
+
+```
+cd ~/.dotfiles
+stow -R .
+```
+
+## Remoção de "symlinks" (desinstalar configurações)
+
+```
+stow -D .
+```
+
+## Observação importante
+
+A estrutura de pastas dentro do repositório deve espelhar exatamente o destino esperado na $HOME. Isso garante que o Stow crie os links corretamente.
