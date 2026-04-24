@@ -7,6 +7,7 @@ Este repositório contém meus arquivos de configuração (dotfiles) para o ambi
     ├── .aliases
     ├── .feed.OPML
     ├── .gitconfig
+    ├── .tmux.conf
     ├── .zshrc
     └── README.md
 ```
@@ -18,7 +19,7 @@ Este repositório contém meus arquivos de configuração (dotfiles) para o ambi
 1. Remover arquivos antigos (se existirem)
 
 ```sh
-rm ~/.aliases ~/.gitconfig ~/feed.OPML ~/.zshrc
+rm ~/.aliases ~/.gitconfig ~/feed.OPML ~/.tmux.conf ~/.zshrc
 ```
 
 2. Clonar o repositório
