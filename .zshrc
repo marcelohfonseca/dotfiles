@@ -25,6 +25,14 @@ zinit snippet OMZP::command-not-found
 # Load completions
 autoload -Uz compinit && compinit
 
+# ZMV activate
+autoload zmv
+
+# Open buffer line in editor
+autoload -Uz edit-command-line
+zle -N edit-command-line
+bindkey '^x^e' edit-command-line
+
 # Zinit cache replay
 zinit cdreplay -q
 
