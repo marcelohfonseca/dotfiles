@@ -10,20 +10,18 @@
 	followTags = true
 [commit]
 	gpgsign = true
-[merge]
-    verifySignatures = false
 [tag]
-    gpgsign = true
+	gpgsign = true
 [log]
-    showSignature = true
-[lfs]
-    filter = git-lfs filter-process
-    required = true
-    clean = git-lfs clean -- %f
-    smudge = git-lfs smudge -- %f
-[credential]
-        helper = !gh auth git-credential
+	showSignature = true
+[merge]
+	verifySignatures = false
 [gpg]
 	format = ssh
 [gpg "ssh"]
 	allowedSignersFile = ~/.config/git/allowed_signers
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
