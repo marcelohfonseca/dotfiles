@@ -1,52 +1,66 @@
-# Update system
-alias up='sudo apt update -y && sudo apt upgrade -y'
-alias update='sudo apt update'
-alias upgrade='sudo apt upgrade'
-
 # File system
-alias cls='clear'
-alias ls='eza -lh --group-directories-first --icons'
-alias lsa='ls -a'
-alias lt='eza --tree --level=2 --long --icons --git'
-alias lta='lt -a'
-alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
-alias fd='fdfind'
-
-# Directories
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
-alias dev="cd ~/dev/"
 
-# Tools
-alias g='git'
-alias d='docker'
-alias cat='batcat'
-alias bat='batcat'
-alias pos="positron"
+alias dev='cd ~/dev/'
+alias c='clear'
 
-# Git
-alias gc='git commit -m'
-alias gca='git commit -a -m'
-alias gcaa='git commit -a --amend'
-alias gp='git pull --no-verify-signatures'
-alias gm='git merge --no-verify-signatures'
+alias l='eza -lh --group-directories-first --icons'
+alias la='ls -a'
+alias lt='eza --tree --level=2 --long --icons --git'
+alias lta='lt -a'
+
+alias ff="fzf --preview 'batcat --style=numbers --color=always {}'"
 
 # Docker
-alias 'dstart'='sudo service docker start'
-alias 'dstop'='sudo service docker stop'
-alias 'drm'='docker rm $(docker ps -a -q)'
-alias 'drmi'='docker rmi $(docker images -q)'
-alias 'drmv'='docker volume rm $(docker volume ls -q)'
+alias d='docker'
 
-# Zsh
-alias zshell='nano ~/.zshrc'
-alias reload='source ~/.zshrc'
+alias dstart='sudo systemctl start docker'
+alias dstop='sudo systemctl stop docker'
+
+alias dps='docker ps'
+alias dpa='docker ps -a'
+alias di='docker images'
+alias dv='docker volume ls'
+
+alias dstopall='docker stop $(docker ps -q)'
+
+alias dprune='docker system prune'
+alias dprunea='docker system prune -a'
+
+# Git
+alias g='git'
+alias gs='git status -sb'
+alias ga='git add'
+alias gb='git branch'
+alias gc='git commit'
+alias gl='git pull --no-verify-signatures'
+alias gp='git push'
+alias gm='git merge --no-verify-signatures'
+alias glog='git log --oneline --graph --decorate --all'
 
 # Python
 alias python=python3
 alias py=python3
 alias ipy=ipython
-alias act="source .venv/bin/activate"
-alias "pup"="python3 -m pip install --upgrade pip"
-alias "ipyk"="pip install ipykernel"
+
+alias act='source .venv/bin/activate'
+
+alias pipu='python3 -m pip install --upgrade pip'
+alias ipk='pip install ipykernel'
+
+# System
+alias up='sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y'
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade -y'
+
+# Tools
+alias bat='batcat'
+alias code='flatpak run com.visualstudio.code'
+alias pos='positron'
+
+# Zsh
+alias zshrc='$EDITOR ~/.zshrc'
+alias aliases='$EDITOR ~/.aliases'
+alias reload='source ~/.zshrc'
