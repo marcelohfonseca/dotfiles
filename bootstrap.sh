@@ -3,7 +3,7 @@ set -e
 
 echo "→ Applying dotfiles..."
 
-stow zsh git tmux aliases rss ohmyposh positron
+stow aliases git ohmyposh rss tmux zsh
 
 echo "→ Applying DBeaver..."
 ./scripts/stow-dbeaver.sh
