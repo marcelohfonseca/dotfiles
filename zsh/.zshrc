@@ -36,11 +36,6 @@ bindkey '^x^e' edit-command-line
 # Zinit cache replay
 zinit cdreplay -q
 
-# Oh-My-Posh
-if command -v oh-my-posh >/dev/null; then
-  eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
-fi
-
 # Keybindings
 bindkey -e
 bindkey '^p' history-search-backward
@@ -68,8 +63,12 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Shell integrations
+if command -v oh-my-posh >/dev/null; then
+  eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/zen.toml)"
+fi
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh)"
+eval "$(~/.local/bin/mise activate zsh)"
 
 # Source aliases if they exist
 [[ ! -f ~/.aliases ]] || source ~/.aliases
