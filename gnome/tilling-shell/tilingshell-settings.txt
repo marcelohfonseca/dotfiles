@@ -1,0 +1,10 @@
+[/]
+edge-tiling-mode='default'
+enable-smart-window-border-radius=false
+inner-gaps=uint32 10
+outer-gaps=uint32 0
+quarter-tiling-threshold=uint32 50
+selected-layouts=[['457245', '918958'], ['Layout 2', 'Layout 1'], ['Layout 2', 'Layout 1']]
+snap-assistant-threshold=55
+window-border-width=uint32 2
+window-use-custom-border-color=false
