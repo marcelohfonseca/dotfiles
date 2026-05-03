@@ -4,16 +4,16 @@ Este repositório contém meus arquivos de configuração (dotfiles) para o ambi
 
 ```txt
 . 
-├── zsh/ → .zshrc 
-├── git/ → .gitconfig 
-├── tmux/ → .tmux.conf 
-├── aliases/ → .aliases 
-├── rss/ → feed.OPML 
-├── ohmyposh/ → ~/.config/ohmyposh 
-├── positron/ → ~/.config/Positron 
-├── dbeaver/ → preferências do DBeaver 
-├── scripts/ → scripts auxiliares 
-├── bootstrap.sh 
+├── aliases/ → ~/.aliases
+├── dbeaver/ → configurações do DBeaver
+├── git/ → ~/.gitconfig
+├── ohmyposh/ → ~/.config/ohmyposh/.zen.toml
+├── positron/ → configurações do Positron
+├── rss/ → feeds em formato OPML
+├── scripts/ → scripts auxiliares
+├── tmux/ → ~/.tmux.conf
+├── zsh/ → ~/.zshrc
+├── bootstrap.sh
 └── README.md
 ```
 
@@ -24,7 +24,7 @@ Este repositório contém meus arquivos de configuração (dotfiles) para o ambi
 1. Remover arquivos antigos (se necessário)
 
 ```sh
-rm ~/.aliases ~/.gitconfig ~/feed.OPML ~/.tmux.conf ~/.zshrc # [...]
+rm ~/.aliases ~/.gitconfig ~/.config/ohmyposh/.zen.toml ~/.tmux.conf ~/.zshrc # [...]
 ```
 
 2. Clonar o repositório
@@ -93,5 +93,5 @@ stow -D <pacote>
 
 - A estrutura de cada pacote deve espelhar o destino na `$HOME`
 - Apenas parte da `.config` é versionada (evitando conflitos, no meu caso)
-- O DBeaver utiliza um caminho customizado (`~/.local/share/...`)
-- O Positron também utiliza uma personalização de seus arquivos principais ()
+- O DBeaver utiliza um caminho customizado (`~/.local/share/DBeaverData/workspace6/.metadata/.plugins/org.eclipse.core.runtime/.settings/...`)
+- O Positron também utiliza caminho customizado (`~/.config/Positron/User/...`)
