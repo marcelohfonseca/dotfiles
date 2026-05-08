@@ -45,6 +45,7 @@ alias python=python3
 alias py=python3
 alias ipy=ipython
 
+alias venv='python3 -m venv .venv'
 alias act='source .venv/bin/activate'
 
 alias pipu='python3 -m pip install --upgrade pip'
