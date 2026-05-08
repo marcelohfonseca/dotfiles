@@ -62,6 +62,6 @@ alias code='flatpak run com.visualstudio.code'
 alias pos='positron'
 
 # Zsh
-alias zshrc='$EDITOR ~/.zshrc'
+alias profile='$EDITOR ~/.zshrc'
 alias aliases='$EDITOR ~/.aliases'
 alias reload='source ~/.zshrc'
