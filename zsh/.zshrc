@@ -76,3 +76,6 @@ eval "$(~/.local/bin/mise activate zsh)"
 # Default Editor
 export EDITOR="nano"
 export SUDO_EDITOR="$EDITOR"
+
+# Add path
+export PATH=/home/marcelofonseca/.opencode/bin:$PATH

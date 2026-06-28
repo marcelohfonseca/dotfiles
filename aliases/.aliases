@@ -3,8 +3,9 @@ alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 
-alias dev='cd ~/dev/'
+alias dev='cd ~/SSD/dev/'
 alias c='clear'
+alias cls='clear'
 
 alias l='eza -lh --group-directories-first --icons'
 alias la='ls -a'
